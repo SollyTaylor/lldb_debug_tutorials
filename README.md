@@ -34,6 +34,12 @@ typical procedures:
   (lldb) bt
   ```
 
+6. if you wanna drop the debug but keep the lldb debugging context, using `run` to restart the launch
+
+  ```
+  (lldb) run
+  ```
+
 related useful links:
 
 1. [GDB and LLDB debugging command examples](https://developer.apple.com/library/mac/documentation/IDEs/Conceptual/gdb_to_lldb_transition_guide/document/lldb-command-examples.html#//apple_ref/doc/uid/TP40012917-CH3-SW1)
